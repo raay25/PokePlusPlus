@@ -361,3 +361,106 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+###############################################################################
+# CMake
+###############################################################################
+
+# CMake build directories (from CMakePresets.json)
+out/
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# CMake platform-specific info
+CMakeScripts/
+Testing/
+
+###############################################################################
+# C++ Build Artifacts
+###############################################################################
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Precompiled Headers
+*.gch
+
+# Compiled Dynamic libraries (cross-platform)
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Linker files
+*.exp
+
+###############################################################################
+# macOS
+###############################################################################
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+
+###############################################################################
+# Linux
+###############################################################################
+
+# Core dumps
+core
+core.*
+
+# Temporary files
+*~
+.*.swp
+.*.swo
+
+###############################################################################
+# vcpkg (if building locally without system-wide install)
+###############################################################################
+
+# Uncomment if you commit vcpkg to your repo (not recommended)
+# vcpkg_installed/
+# .vcpkg-root
+
+###############################################################################
+# Project-Specific (PokePlusPlus)
+###############################################################################
+
+# Don't ignore assets (you WANT to commit these!)
+# Make sure these are tracked:
+# !assets/
+# !shaders/
