@@ -116,7 +116,7 @@ cmake --build build/macos-arm-release
 ## Credits
 The Pokemon models and the terrain textures were all sourced from the web. Thank you to:
 - prozip @ Sketchfab for the 3D Bulbasaur model ([link](https://sketchfab.com/3d-models/bulbasaur-pokemon-animated-d2a9a7962613438387880a195cd8a1df#download))
-- nguyenlouis32 @ Sketchfab for the 3D Charmander and Squirtle models ([Charmander]([https://sketchfab.com/3d-models/charmander-2637dd2cf8e44d93a05e31d1372039da#download](https://sketchfab.com/3d-models/charmander-2637dd2cf8e44d93a05e31d1372039da#download)), [Squirtle](https://sketchfab.com/3d-models/squirtle-df11cb9c684e4a5fad6eec86d590774d#download))
+- nguyenlouis32 @ Sketchfab for the 3D Charmander and Squirtle models ([Charmander](https://sketchfab.com/3d-models/charmander-2637dd2cf8e44d93a05e31d1372039da#download), [Squirtle](https://sketchfab.com/3d-models/squirtle-df11cb9c684e4a5fad6eec86d590774d#download))
 - gaddiellartey2010 @ Sketchfab for the 3D Pikachu model ([link](https://sketchfab.com/3d-models/pikachu-bdd57b2bf2374bb89251c083cb2d834e))
 - ambientCG.com for the terrain heightmap, grass textures, and rock textures
 
