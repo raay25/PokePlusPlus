@@ -1,0 +1,55 @@
+# Stylized low-poly rock (CC0)
+# Dimensions ~ X:1.2  Y:0.9  Z:1.2   Up: +Y
+o Rock
+
+# Vertices (irregular footprint + top ring + peak)
+v -0.60 0.00 -0.35
+v -0.20 0.00 -0.65
+v  0.45 0.00 -0.50
+v  0.70 0.00  0.05
+v  0.10 0.00  0.70
+v -0.55 0.00  0.45
+
+v -0.55 0.38 -0.10
+v -0.10 0.48 -0.40
+v  0.40 0.45 -0.25
+v  0.55 0.40  0.10
+v  0.05 0.50  0.35
+v -0.45 0.44  0.25
+
+v  0.00 0.85  0.00   # peak
+
+s 1
+
+# Bottom cap - CCW when viewed from BELOW (outside)
+f 3 1 2
+f 6 1 3
+f 5 3 4
+f 6 3 5
+
+# Side belt quads - CCW from outside
+f 2 1 7
+f 8 2 7
+
+f 3 2 8
+f 9 3 8
+
+f 4 3 9
+f 10 4 9
+
+f 5 4 10
+f 11 5 10
+
+f 6 5 11
+f 12 6 11
+
+f 1 6 12
+f 7 1 12
+
+# Upper ring to peak - CCW from outside
+f 8 7 13
+f 9 8 13
+f 10 9 13
+f 11 10 13
+f 12 11 13
+f 7 12 13

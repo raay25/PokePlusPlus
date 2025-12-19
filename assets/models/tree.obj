@@ -1,0 +1,63 @@
+# Stylized low-poly tree (CC0) - LARGER VERSION
+o Tree
+s 1
+
+# Trunk vertices (DOUBLED in size: 0.09 -> 0.18, 0.80 -> 1.60)
+v -0.18 0.00 -0.18
+v  0.18 0.00 -0.18
+v  0.18 0.00  0.18
+v -0.18 0.00  0.18
+v -0.18 1.60 -0.18
+v  0.18 1.60 -0.18
+v  0.18 1.60  0.18
+v -0.18 1.60  0.18
+
+# Bottom (flipped to CCW when viewed from below)
+f 1 3 2
+f 1 4 3
+
+# Sides - ALL CCW when viewed from outside
+f 4 7 3
+f 4 8 7
+
+f 3 6 2
+f 3 7 6
+
+f 2 5 1
+f 2 6 5
+
+f 1 8 4
+f 1 5 8
+
+# Top (CCW when viewed from above)
+f 5 7 6
+f 5 8 7
+
+# Crown vertices (DOUBLED: apex 2.00 -> 4.00, radius 0.70 -> 1.40, base 0.80 -> 1.60)
+v  0.00 4.00  0.00
+v  1.40 1.60  0.00
+v  0.98 1.60  0.98
+v  0.00 1.60  1.40
+v -0.98 1.60  0.98
+v -1.40 1.60  0.00
+v -0.98 1.60 -0.98
+v  0.00 1.60 -1.40
+v  0.98 1.60 -0.98
+
+# Crown sides (ALL CCW when viewed from outside)
+f 9 11 10
+f 9 12 11
+f 9 13 12
+f 9 14 13
+f 9 15 14
+f 9 16 15
+f 9 17 16
+f 9 10 17
+
+# Crown base (CCW when viewed from below)
+f 10 12 11
+f 10 13 12
+f 10 14 13
+f 10 15 14
+f 10 16 15
+f 10 17 16
